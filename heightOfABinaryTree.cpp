@@ -58,7 +58,7 @@ int main()
     root->right->right->right = new Node(6);
     root->right->right->left->right = new Node(4);
 
-    std::cout << height(root);
+    std::cout << height(root); // 4
 
     return 0;
 }
