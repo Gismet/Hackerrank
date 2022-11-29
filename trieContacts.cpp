@@ -88,7 +88,7 @@ int count_words_with_prefix(TrieNode *root, std::string prefix)
         current = current->charNodes[prefix[i] - 'a'];
         i++;
     }
-    // If we survive the while loop, the we are guaranteed to find the prefix in the trie. return its prefixCount;
+    // If we survive the while loop, then we are guaranteed to find the prefix in the trie. return its prefixCount;
     return current->prefixCount;
 }
 
